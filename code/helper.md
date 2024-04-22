@@ -62,3 +62,5 @@ Product H	United States of America
 Notice the Data Model info and primary keys
 If you delete the relationship and then create a table and try and show product with country it wont work
 If you recreate teh key and then create the table with product and country - then it works
+
+Check rendering in PBI service portal  
