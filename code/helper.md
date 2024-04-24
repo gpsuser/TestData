@@ -72,8 +72,43 @@ Check rendering in PBI service portal
 1. Matrix - hierarchy
 2. Scaling  (https://github.com/gpsuser/samples/blob/master/random%20notes.md)
 3. Python
+
+I have a data frame called dataset with two columns called ProductName and TotalPrice. I would like to generate a histogram in python, showing the ProductName on the x axis and the TotalPrice on the y axis. Please generate this python code for me.
+
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# Assuming 'dataset' is your DataFrame and it's already defined
+# dataset = pd.DataFrame({'ProductName': ['Product A', 'Product B', ...], 'TotalPrice': [120, 340, ...]})
+
+# Create a bar chart
+plt.figure(figsize=(10, 8))  # Adjust the size as needed
+plt.bar(dataset['ProductName'], dataset['TotalPrice'], color='skyblue')
+
+# Add title and labels
+plt.title('Total Price by Product Name')
+plt.xlabel('Product Name')
+plt.ylabel('Total Price')
+
+# Rotate the product names on x-axis for better readability
+plt.xticks(rotation=45, ha='right')
+
+# Show the plot
+plt.tight_layout()  # Adjust the layout
+plt.show()
+```
+
+
 4. SQL   GPS-DELL-XPS\MYTEST, TEST, dbo, ShoppingBasket,   SELECT * FROM ShoppingBasket
    Home > Transform Data > Data Source Settings
+
+5. Q&A
+
+how many countries are in financials_new Country?
+what is the total financials new cog?
+
+6. KEY INFLUENCES
 
 
 
@@ -86,5 +121,9 @@ Power BI ServicePortal
 DataModlleing
 Formatting
 DAX
-Python
+Python - Custom visuals
 SQL
+FORECASTING - third party widgets
+Q&A
+AI - Key Influences
+
