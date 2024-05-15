@@ -1,6 +1,6 @@
 # Notes
 
-<!-- 23 April -->
+<!-- day 2 -->
 
 Show connection between SQL server and Power BI
 Show SQL code in Power BI
@@ -67,7 +67,9 @@ If you recreate teh key and then create the table with product and country - the
 
 Check rendering in PBI service portal  
 
-<!-- 24 April -->
+Discuss M Language
+
+<!-- day 3 -->
 
 1. Matrix - hierarchy
 2. Scaling  (https://github.com/gpsuser/samples/blob/master/random%20notes.md)
