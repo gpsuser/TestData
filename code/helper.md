@@ -69,6 +69,11 @@ Check rendering in PBI service portal
 
 Discuss M Language
 
+
+Larger data sets:
+<https://github.com/microsoft/powerbi-desktop-samples/blob/main/DAX/Adventure%20Works%20DW%202020.pbix>
+
+
 <!-- day 3 -->
 
 1. Matrix - hierarchy
