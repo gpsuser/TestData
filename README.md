@@ -1,5 +1,7 @@
 # Notes
 
+Discuss PBI licensing
+
 ## Day 2
 
 * Download the .txt file an import into PBI
