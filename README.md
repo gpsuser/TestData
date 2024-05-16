@@ -1,6 +1,7 @@
 # Notes
 
 Discuss PBI licensing
+Filtering for row level security 
 
 ## Day 2
 
